@@ -1,0 +1,38 @@
+# Виртуальные окружения
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Данные (тяжёлые, только локально)
+data/raw/
+data/processed/
+*.parquet
+
+# Личные артефакты
+outputs/
+
+# Модели
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Архивы (страховка от случайного коммита)
+*.zip
+*.gz
+
+# Изображения и таблицы вне reports
+*.png
+*.csv
+
+# ИСКЛЮЧЕНИЯ: финальные отчёты идут в git
+!reports/**
