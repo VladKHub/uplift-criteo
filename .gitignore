@@ -12,13 +12,20 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Данные (тяжёлые, только локально)
-data/raw/
-data/processed/
+# Данные (тяжелые, только локально)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 *.parquet
 
 # Личные артефакты
-outputs/
+outputs/vlad/*
+outputs/egor/*
+outputs/andrew/*
+!outputs/vlad/.gitkeep
+!outputs/egor/.gitkeep
+!outputs/andrew/.gitkeep
 
 # Модели
 *.pkl
