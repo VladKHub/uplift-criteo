@@ -15,6 +15,7 @@ __pycache__/
 # Данные (тяжелые, только локально)
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/ABOUT_DATA.md
 data/processed/*
 !data/processed/.gitkeep
 *.parquet
